@@ -8,8 +8,9 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 3fr;
-  background-color: #cccccca9;
+  /* background-color: #cccccc69; */
   height: 100vh;
+  background-image: url('https://img.freepik.com/premium-photo/abstract-blurred-gradient-nature-wallpaper-backgroundsoft-background-wallpaperdesigngraphic-presentation_532332-1415.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

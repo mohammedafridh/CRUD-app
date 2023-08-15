@@ -63,6 +63,9 @@ export const updateDetails = async(req,res)=>{
     }if(exists){
         throw Error('Company Name Exists!')
     }
+    if(!name || !address || !contactNumber){
+        throw Error('*Required fields cannot be empty!')
+    }
     // if(contactNumber.length!==9){
     //         throw Error('*Contact number is wrong!')
     //     }

@@ -13,7 +13,7 @@ const CompanySchema = mongoose.Schema({
         type:Number,
         required:true
     },
-    totalStaff:String,
+    staff:String,
 },
     {timestamps:true}
 )

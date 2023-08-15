@@ -35,7 +35,7 @@ function UpdateDetailsModel({ modalOpened, setModalOpened, company }) {
 
         if (response.ok) {
             dispatch({ type: 'UpdateCompany', payload: json })
-            setError('')
+            setError(null)
             setModalOpened(false)
         } if (!response.ok) {
             setError(json.error)
@@ -53,7 +53,7 @@ function UpdateDetailsModel({ modalOpened, setModalOpened, company }) {
         >
 
             <form className='updateForm' onSubmit={updateHandler}>
-                <h3 style={{ color: 'orangered' }}><strong>Update Company Details</strong></h3>
+                <h2 style={{ color: 'orangered' }}><strong>Update Company Details</strong></h2>
 
                 {/* Display errors */}
                 {error && <p className='error'>{error}</p>}

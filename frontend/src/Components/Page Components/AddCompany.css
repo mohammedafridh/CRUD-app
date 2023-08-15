@@ -3,6 +3,7 @@
     padding: 3rem 1rem;
     position: sticky;
     top: 5rem;
+    margin-left: 1rem;
 }
 
 .addContacts{
@@ -12,8 +13,9 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    background: #ccc;
+    background: #cccccccb;
     padding: 2rem 1rem;
+    border-radius: 8px;
 }
 
 .detailsInput{

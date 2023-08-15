@@ -49,7 +49,7 @@ const AddCompany = () => {
         // add contact form
         <form className="AddContactForm" onSubmit={AddCompanyHandler}>
             <div className="addContacts">
-                <h2>Add Company Details</h2>
+                <h2 style={{ color: 'orangered' }}>Add Company Details</h2>
 
                 {/* display errors */}
                 {error &&
